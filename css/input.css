@@ -1,0 +1,30 @@
+body{
+    font-size: 61.5%;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.0rem;
+}
+
+li{
+    font-size: 1.8rem;
+    list-style: none;
+}
+
+input{
+    font-size: 1.8rem;
+    line-height: 2;
+    width: 500px;
+}
+select{
+    font-size: 1.8rem;
+    width: 200px;
+}
+
+#sbmt{
+    width: 200px;
+    color: #000000;
+    background-color: rgb(236, 175, 61);
+    border-radius: 5px;
+}
