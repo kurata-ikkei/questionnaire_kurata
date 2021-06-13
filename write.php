@@ -8,6 +8,7 @@ $mail = $_POST["email"];
 $gender = $_POST["gender"];
 $age = $_POST["age"];
 
+//XSS対策
 function h($value){
     return htmlspecialchars($value,ENT_QUOTES);
 }
@@ -57,7 +58,7 @@ fclose($file);
         <td><?=h($age);?></td>
     </tr>
 </table>
-<h2><a href="./result/result.csv">csvダウンロード</a></h2>
+
 <h2><a href="input.php">サイトに戻る</a></h2>
 
 </body>

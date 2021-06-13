@@ -1,6 +1,27 @@
+body{
+    font-size: 62.5%;
+    text-align: center;
+}
+
+header{
+    width: 900px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.main{
+    width: 900px;
+    margin: auto;
+}
+
+
+h2{
+    font-size: 1.6rem;
+}
+
 table{
     border-collapse: collapse;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 th,td{

@@ -10,14 +10,14 @@
 	<h1>アンケートにご回答をお願いいたします！</h1>
 	<form action="write.php" method="post">
 		<ul>
-		<li>お名前: <input type="text" name="name"></li>
-		<li>メールアドレス: <input type="text" name="email"></li>
-		<li>性別:<select name="gender" id=""></li>
+		<li>お名前:<br> <input type="text" name="name"></li>
+		<li>メールアドレス:<br> <input type="text" name="email"></li>
+		<li>性別:<br><select name="gender" id=""></li>
 					<option value="mens">Mens</option>
 					<option value="wemens">Wemens</option>
 					<option value="other">Other</option>
 				</select>
-		<li>年齢:	<select name="age" id=""></li>
+		<li>年齢:<br>	<select name="age" id=""></li>
 					<option value="20_29">20~29</option>
 					<option value="30_39">30~39</option>
 					<option value="40_49">40~49</option>
